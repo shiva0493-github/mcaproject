@@ -7,7 +7,6 @@ import PodcastThumbnail from "../components/PodcastThumbnail";
 import { Thumbnail, TextBox, DetailBox, EpisodeBox, EpisodeRow } from '../styles/Containers'
 import { ThumbnailImg, ThumbnailText } from '../styles/TextImages'
 import Header from "../components/Header";
-import moment from "moment";
 
 
 const baseURL = 'https://itunes.apple.com/lookup?id='
