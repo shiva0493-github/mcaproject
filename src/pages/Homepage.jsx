@@ -14,7 +14,7 @@ import { Expander } from '../styles/TextImages'
 const Homepage = ({podcasts}) => {
 
     const [loading, setLoading] = useState(true)
-    const [end, setEnd] = useState(10)
+    const [end, setEnd] = useState(20)
     const [count ,setCount] = useState(1)
 
     let feed = podcasts 

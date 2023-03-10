@@ -18,18 +18,22 @@ code {
   box-shadow: 0px 2px 10px 1px grey;
 }
 
+.shadow:hover {
+  box-shadow: 0px 2px 10px 1px black;
+}
+
 .pointer:hover {
   cursor: pointer;
 }
 
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+.episdodeTitle {
+  color:#70879e; 
+  font-size:2vh; 
+  padding:1vh 0vh;
+}
+
+.episdodeTitle:hover {
+  color:white;
 }
 
 @keyframes spin {

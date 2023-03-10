@@ -76,8 +76,8 @@ const PodcastDetail = () => {
                     <span style={{width:'20%', fontSize:'4vh'}}>Date</span>
                     <span style={{width:'20%', fontSize:'4vh'}}>Duration</span>
                 </EpisodeRow>
-                {y.map((item, index) => <EpisodeRow className='pointer' key={index} onClick={() => navigate(`/podcast/${podcastId}/episode/${index}`)}>
-                        <span style={{color:'#70879e', fontSize:'2vh', width:'60%', padding:'1vh 0vh'}}>{item.title}</span>
+                {y.map((item, index) => <EpisodeRow className='pointer episodeTitle' key={index} onClick={() => navigate(`/podcast/${podcastId}/episode/${index}`)}>
+                        <span className='episdodeTitle' style={{width:'60%'}}>{item.title}</span>
                         <span style={{width:'20%', fontSize:'2vh'}}>{item.date}</span>
                         <span style={{width:'20%', fontSize:'2vh'}}>{item.duration}</span>
                 </EpisodeRow>)}

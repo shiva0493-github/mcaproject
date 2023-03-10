@@ -70,8 +70,14 @@ export const EpisodeBox = styled.div`
 export const EpisodeRow = styled.div`
     height:7vh; 
     border-bottom: 1px solid grey;
+    padding:0.5vh 1vh;
     display:flex; 
     align-items:space-around;
     gap:2vw;
     cursor: default;
+
+    :hover{
+        background-color: #70879e;
+        color:white;
+    }
 `
