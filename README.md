@@ -35,8 +35,7 @@ General
 
 In the project directory, you can run:
 
-### Little UI/UX details
-#### Little UI/UX details
+## Additional UI/UX details
 - See more button on the homepage to show podcasts in groups of 10.
 - The number of podcasts next to the search bar are getting updated from the filter query.
 - The loader is a vinyl disc.
@@ -44,7 +43,7 @@ In the project directory, you can run:
 - Hover effect on episode list.
 
 
-### About the things left:
+## About the things left:
 My sincere apologies that I couldn't do them in the assigned time. I didn't want to delay the delivery. 
 I will do them and udpate the link anyways over the weekend.
     - About the CORS, I tried the axios base URL but it didn't seem to work. I will have to check it again.
